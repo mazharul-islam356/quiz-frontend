@@ -21,7 +21,7 @@ export default function Admin() {
 
   const addQuiz = async () => {
     if (!form.date) return alert("Date required");
-    if (form.questions.length !== 5) return alert("Must add 10 questions");
+    if (form.questions.length !== 2) return alert("Must add 10 questions");
 
     await API.post("/admin/quiz", form);
     fetchQuiz();
