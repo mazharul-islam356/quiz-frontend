@@ -19,7 +19,7 @@ export default function Home() {
       {/* Hero Section */}
       <div className="text-center max-w-2xl">
         <h1 className="text-5xl md:text-6xl font-extrabold mb-4 leading-tight">
-          Zero to Web Hero Quiz
+          Frontend course Web Hero Quiz
         </h1>
 
         <p className="text-gray-400 text-lg mb-8">
